@@ -5,18 +5,14 @@ plugins {
 
 android {
     namespace = "com.pato.universoescolar"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.pato.universoescolar"
         minSdk = 23
-        targetSdk = 36
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-    }
-
-    buildFeatures {
-        viewBinding = false
     }
 
     compileOptions {
@@ -30,5 +26,5 @@ android {
 }
 
 dependencies {
-    implementation("androidx.webkit:webkit:1.15.0")
+    implementation("androidx.webkit:webkit:1.12.1")
 }
